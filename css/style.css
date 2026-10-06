@@ -1087,9 +1087,7 @@ p {
   transform: translateY(-6px);
   box-shadow: var(--shadow);
 }
-.testimonial:nth-child(2) {
-  translate: 0 2rem;
-}
+
 .testimonial__stars {
   display: flex;
   gap: 0.2rem;
@@ -1487,9 +1485,7 @@ a.contact__item:hover {
   .testimonials__grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .testimonial:nth-child(2) {
-    translate: none;
-  }
+
   .steps {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 2.5rem;
